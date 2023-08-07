@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@300;600&family=Playfair+Display&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.dash{
+    color: rgb(239, 235, 251);
+    min-width:100% ;
+    padding: 1vh;
+    background-color: rgb(80, 121, 196);
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+img{
+    width: 80px;
+    height: 70px;
+}
